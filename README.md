@@ -4,7 +4,7 @@ A simple Rust-based telemetry server for performance and scale.
 
 ## Prerequisites
 
-- [Rust](https://rustup.rs/) (latest stable version)
+- [Rust](https://rustup.rs/) (latest stable version).
 - Cargo (comes with Rust) — on Mac `brew install rust`.
 
 ## Installation
@@ -17,7 +17,7 @@ A simple Rust-based telemetry server for performance and scale.
 
 2. Clone the repository and navigate to the project directory:
    ```bash
-   git clone <your-repo-url>
+   git clone https://www.github.com/shincylabs/
    cd telemetry-server
    ```
 
