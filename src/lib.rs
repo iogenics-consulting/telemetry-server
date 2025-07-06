@@ -1,6 +1,12 @@
 use actix_web::{get, HttpResponse, Responder};
 use serde::Serialize;
 
+pub mod config;
+pub mod db;
+pub mod models;
+pub mod routes;
+pub mod services;
+
 #[derive(Serialize)]
 struct HealthResponse {
     status: String,
